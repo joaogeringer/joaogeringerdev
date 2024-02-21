@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="ENG">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -60,23 +60,42 @@
             </div>
         </div>
 
+        <div class="content-container" style="display: flex; align-items: flex-start;">
+            <div class="card-container" style="margin-right: 20px;"> <!-- Added margin for spacing -->
+                <div class="card">
+                    <div class="card-wrapper">
+                        <h2>My Projects</h2>
+                        <p>Click to see</p>
+                    </div>
+                </div>
+            </div>
+            <p style="max-width: 60%;">I had some experiences with so many languages and frameworks trying to find my stack, not every one I liked to work with, not every I want to use again, but the point is that it counted as so much experience to my programming journey.</p>
+        </div>
+                
+            </div>
+        </div>
         <div class="card-container">
             <div class="card">
                 <div class="card-wrapper">
                     <h2>Hard Skills</h2>
                     <p>Click to see</p>
                 </div>
-            </div>
-            <div class="card-text">
-                Currently, I study software development, focusing mainly on mobile stack, using tools, languages, and frameworks such as Kotlin, Java, and Flutter. However, I also have experience in web projects, with JavaScript, HTML, and CSS, as well as some projects and studies in Python and database management with PostgreSQL, and version control with Git.
+                <div class="hidden-content">
+                    <p>Currently, I study software development, focusing mainly on mobile stack, using tools, languages, and frameworks such as Kotlin, Java, and Flutter. However, I also have experience in web projects, with JavaScript, HTML, and CSS, as well as some projects and studies in Python and database management with PostgreSQL, and version control with Git.</p>
+                </div>
             </div>
         </div>
     </main>
-    <footer class="footer">
-        Made by João Geringer =D
-    </footer>
     <script>
-        
-    </script>
+        //document.querySelectorAll('.card-wrapper').forEach(item => {
+    //item.addEventListener('click', () => {
+      //  const hiddenContent = item.nextElementSibling;
+       // hiddenContent.style.display = hiddenContent.style.display === 'block' ? 'none' : 'block';
+ //   });
+//});
+    </script> 
+    <footer class="footer">
+        Made by João Geringer :D
+    </footer>
 </body>
 </html>
