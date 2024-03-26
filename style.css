@@ -12,7 +12,7 @@ body {
 .header-container {
   height: 100vh;
   width: 100vw;
-  background-image: url("./backgroundgif.gif");
+  background-image: url("./backkground.gif");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 1920px;
@@ -226,7 +226,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #4b0082;
+  background-color: #1D81C7;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -303,7 +303,7 @@ a:hover {
 .footer {
   width: 100%;
   height: 100px;
-  background-color: #4b0082;
+  background-color: #1D81C7;
   display: flex;
   align-items: center;
   justify-content: center;
